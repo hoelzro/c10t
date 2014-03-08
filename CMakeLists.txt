@@ -25,7 +25,7 @@ set(Boost_USE_STATIC_LIBS TRUE)
 
 find_package(ZLIB REQUIRED)
 find_package(PNG 1.2 REQUIRED)
-find_package(FreeType 2 REQUIRED)
+find_package(Freetype 2 REQUIRED)
 find_package(Threads REQUIRED)
 find_package(Boost 1.46 COMPONENTS thread filesystem system REQUIRED)
 
